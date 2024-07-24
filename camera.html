@@ -104,7 +104,11 @@
 						</div>
 					</div>
 				
+<<<<<<< HEAD
+					<a href=".\home.html" class="homeLink">
+=======
 					<a href="C:\Users\saleemalwan\Desktop\I-PHONE-BY-HTML-CSS-JAVASCRIPT--main\home.html" class="homeLink">
+>>>>>>> origin/master
 						<div class="home cam"></div>
 					</a>
 
@@ -130,6 +134,233 @@
 
 
 <style>
+<<<<<<< HEAD
+.iphone.iphoneCam {
+    background-image: none;
+    background-color: #050007;
+}
+
+.iphone .inner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.iphone .inner video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.iphone .inner .top {
+    background-color: #262626b0;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    z-index: 1;
+}
+
+.iphone .inner .top .right .using {
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #4be640;
+    position: relative;
+    left: 5px;
+    top: -2px;
+    z-index: 1;
+}
+
+.iphone .inner .content .top {
+    display: flex;
+    justify-content: center;
+    background-color: #262626b0;
+    border-radius: 0;
+    height: 100px;
+    gap: 130px;
+    width: 100%;
+    z-index: 1;
+}
+
+.iphone .inner .content .top > * {
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.iphone .inner .content .bottom {
+    background-color: #262626b0;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 180px;
+    position: relative;
+    top: 184%;
+    width: 100%;
+    z-index: 1;
+}
+
+.iphone .inner .content .bottom .mode {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Compact';
+    position: relative;
+    bottom: 20px;
+}
+
+.iphone .inner .content .bottom .mode > * {
+    cursor: pointer;
+}
+
+.iphone .inner .content .bottom .mode .active {
+    color: #f8d651;
+}
+
+.iphone .inner .content .bottom .mode .bent {
+    transform: rotateY(50deg);
+    display: inline-block;
+}
+
+.iphone .inner .content .bottom .mode .bent.slo {
+    position: relative;
+    left: 7px;
+}
+
+.iphone .inner .content .bottom .mode .bent.no {
+    position: relative;
+    right: 6px;
+}
+
+.iphone .inner .content .bottom .mode .bent .last2 {
+    color: #FBFAFB;
+}
+
+.iphone .inner .content .bottom .mode .bent .last1 {
+    color: #A8A8A8;
+}
+
+.iphone .inner .content .bottom .mode .bent .last0 {
+    color: #838383;
+}
+
+.iphone .inner .content .bottom .zoom {
+    border-radius: 20px;
+    background-color: #26262659;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.iphone .inner .content .bottom .zoom .level {
+    border-radius: 50%;
+    background-color: #262626b0;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    font-family: 'Compact';
+    cursor: pointer;
+}
+
+.iphone .inner .content .bottom .zoom .level._1 {
+    font-size: 17px;
+    width: 30px;
+    height: 30px;
+    color: #f8d651;
+}
+
+.iphone .inner .content .bottom .zoom .level._1 .x {
+    font-size: 14px;
+}
+
+.iphone .inner .content .bottom .main {
+    display: flex;
+    justify-content: center;
+    box-shadow: none;
+    border-radius: 0;
+    gap: 90px;
+    align-items: center;
+}
+
+.iphone .inner .content .bottom .main .photos {
+    background-color: #161616;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.iphone .inner .content .bottom .main .photos:active {
+    transform: scale(0.95);
+}
+
+.iphone .inner .content .bottom .main .border {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.iphone .inner .content .bottom .main .border .capture {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.iphone .inner .content .bottom .main .border .capture:active {
+    transform: scale(0.9);
+}
+
+.iphone .inner .content .bottom .main .background {
+    cursor: pointer;
+    transition-duration: 0.2s;
+    background-color: #262626b0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iphone .inner .content .bottom .main .background .rotate {
+    width: 25px;
+    height: 20px;
+}
+
+.iphone .inner .content .bottom .main .background .rotate:active {
+    transform: scale(0.9);
+}
+
+.iphone .inner .homeLink {
+    margin-top: 493px;
+}
+
+=======
 
 .iphone.iphoneCam {
 	background-image: none;
@@ -354,10 +585,64 @@
 
 
 
+>>>>>>> origin/master
 </style>
 
 
 <script>
+<<<<<<< HEAD
+async function openCamera() {
+            const video = document.createElement('video');
+            video.autoplay = true;
+            video.playsinline = true;
+            document.getElementById('inner').appendChild(video);
+
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ video: true });
+                video.srcObject = stream;
+            } catch (err) {
+                console.error('Error accessing the camera: ', err);
+            }
+        }
+
+        openCamera();
+
+        document.getElementById('iphone').addEventListener('click', () => {
+            window.location.href = "/index.html";
+        });
+
+        var timesClicked = 0;
+
+        function turnOffCam() {
+            timesClicked++;
+
+            if (timesClicked % 2 == 1) {
+                document.getElementById("inner").style.opacity = "0";
+                document.getElementById("iphone").style.backgroundImage = "none";
+                document.getElementById("iphone").style.backgroundColor = "#000";
+                document.getElementById("inner").style.cursor = "pointer";
+            } else {
+                window.location.href = "/index.html";
+            }
+
+            document.getElementById("iphone").addEventListener("click", () => {
+                window.location.href = "/index.html";
+            });
+        }
+
+        // document.querySelector('.capture').addEventListener('click', () => {
+        //     const video = document.querySelector('video');
+        //     const canvas = document.createElement('canvas');
+        //     canvas.width = video.videoWidth;
+        //     canvas.height = video.videoHeight;
+        //     const context = canvas.getContext('2d');
+        //     context.drawImage(video, 0, 0, canvas.width, canvas.height);
+        //     const img = document.createElement('img');
+        //     img.src = canvas.toDataURL('image/png');
+        //     document.querySelector('.photos').appendChild(img);
+        // });
+
+=======
 
 var timesClicked = 0;
 
@@ -377,4 +662,5 @@ function turnOffCam() {
 		window.location.href = "/index.html";			
 	});
 }
+>>>>>>> origin/master
 </script>
